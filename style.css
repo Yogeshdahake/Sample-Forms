@@ -1,0 +1,167 @@
+body{
+	background-image: url(../img2.jpg); 
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+}
+a
+{
+position: absolute;
+	top: 33%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 190px;
+	height: 40px;
+	text-align: center;
+	line-height:44px;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-transformation: uppercase;
+	text-decoration: none;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b,#03a9f4);
+	background-size: 400%;
+	border-radius:30px;
+	
+}
+
+a:hover
+{	
+	animation: animate 8s linear infinite;	
+}
+@keyframes animate
+{
+	0%
+	{
+		background-position: 0%;
+	}
+	100%
+	{
+		background-position: 400%;
+	}
+		
+}
+
+a:before
+{
+	content: ' ';
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	z-index:-1;
+	background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b,#03a9f4);
+	background-size: 400%;
+	border-radius:40px;
+	opacity: 0;
+	transition: 0.5%;
+	
+	
+}
+a:hover:before
+{
+filter: blur(20px);
+opacity: 1;
+animation: animate 8s linear infinite;		
+}
+.simple-form{
+	text-align: center;
+	margin: 100px 400px;
+}
+#Registration{
+	width: 100%;
+	background-color: #b0c4b4;
+	opacity: 0.8;
+	padding: 50px 0px;
+}
+
+#ph{
+	width: 60px;
+	padding: 5x;
+	border-radius: 5px;
+	outline: 0px;
+	background : #FAF6D9
+}
+#phone{
+	width: 190px;
+	padding: 5x;
+	border-radius: 5px;
+	outline: 0px;
+	background : #FAF6D9
+}
+#gid{
+	
+}
+
+input[type="radio"]:checked + span{
+	font-weight: bold ;
+	font-size: 18px ;
+    
+}
+
+
+a2
+{
+position: absolute;
+	top: 64%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 190px;
+	height: 40px;
+	text-align: center;
+	line-height:44px;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-transformation: uppercase;
+	text-decoration: none;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b,#03a9f4);
+	background-size: 400%;
+	border-radius:30px;
+	
+}
+
+a2:hover
+{	
+	animation: animate 8s linear infinite;	
+}
+@keyframes animate
+{
+	0%
+	{
+		background-position: 0%;
+	}
+	100%
+	{
+		background-position: 400%;
+	}
+		
+}
+
+a2:before
+{
+	content: ' ';
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	z-index:-1;
+	background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b,#03a9f4);
+	background-size: 400%;
+	border-radius:40px;
+	opacity: 0;
+	transition: 0.5%;
+	
+	
+}
+a2:hover:before
+{
+filter: blur(20px);
+opacity: 1;
+animation: animate 8s linear infinite;		
+}
